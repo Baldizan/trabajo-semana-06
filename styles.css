@@ -1,16 +1,24 @@
 body {
     background-color: rgb(255, 255, 165);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 .image{
-    border: 5px solid green;
-    border-radius: 10px;
+    border: 5px solid rgba(164, 228, 164, 0.838);
+    border-radius: 200px;
     height: 400px;
+    align-self: center;
+}
+
+div {
+    background-color: rgba(70, 83, 43, 0.237);
+    margin-right: 870px;
 }
 
 .link-button {
     padding: .5em;
     border-radius: 5px;
+    box-shadow: 2px 3px #888888;
     border: .02em solid black;
     background-color: #f2f2f2;
     color: black;
